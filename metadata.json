@@ -1,0 +1,6 @@
+{
+  "name": "Queen Hotel",
+  "description": "فندق كوين في الفيوم - راحة ملكية وخدمات ضيافة استثنائية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
