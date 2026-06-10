@@ -7,6 +7,7 @@ import {
 import { motion, AnimatePresence } from 'motion/react';
 import { ROOMS, AMENITIES, FEATURES, TESTIMONIALS, GALLERY, TRANSLATIONS } from './data';
 import { Booking } from './types';
+import heroImg from './assets/images/queen_hotel_hero_1781080829857.png';
 
 export default function App() {
   const [lang, setLang] = useState<'ar' | 'en'>('ar');
@@ -443,7 +444,7 @@ export default function App() {
         {/* Background Image Container */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/images/queen_hotel_hero_1781080829857.png" 
+            src={heroImg} 
             alt="Queen Hotel Exterior Sunset" 
             className="w-full h-full object-cover transform scale-105 animate-[pulse_8s_infinite] opacity-65"
             referrerPolicy="no-referrer"

@@ -1,4 +1,9 @@
 import { Room, Amenity, Testimonial, GalleryItem } from './types';
+import deluxeImg from './assets/images/queen_hotel_deluxe_1781080843862.png';
+import suiteImg from './assets/images/queen_hotel_suite_1781080855664.png';
+import familyImg from './assets/images/queen_hotel_family_1781080882764.png';
+import lobbyImg from './assets/images/queen_hotel_lobby_1781080867289.png';
+import heroImg from './assets/images/queen_hotel_hero_1781080829857.png';
 
 export const ROOMS: Room[] = [
   {
@@ -22,7 +27,7 @@ export const ROOMS: Room[] = [
       'Private luxury bathroom',
       '24/7 Premium room service'
     ],
-    image: '/src/assets/images/queen_hotel_deluxe_1781080843862.png',
+    image: deluxeImg,
     capacity: 2
   },
   {
@@ -46,7 +51,7 @@ export const ROOMS: Room[] = [
       'Full VIP welcome treatment',
       'Premium espresso machine'
     ],
-    image: '/src/assets/images/queen_hotel_suite_1781080855664.png',
+    image: suiteImg,
     capacity: 2
   },
   {
@@ -70,7 +75,7 @@ export const ROOMS: Room[] = [
       'Large smart entertainment TV',
       'Mini bar and built-in safe'
     ],
-    image: '/src/assets/images/queen_hotel_family_1781080882764.png',
+    image: familyImg,
     capacity: 4
   }
 ];
@@ -172,7 +177,7 @@ export const GALLERY: GalleryItem[] = [
     id: 'gal-1',
     categoryAr: 'الواجهة الرئيسية',
     categoryEn: 'Main Facade',
-    image: '/src/assets/images/queen_hotel_hero_1781080829857.png',
+    image: heroImg,
     titleAr: 'واجهة الفندق الملكية في وقت الغروب',
     titleEn: 'Royal facade of the hotel at golden sunset'
   },
@@ -180,7 +185,7 @@ export const GALLERY: GalleryItem[] = [
     id: 'gal-2',
     categoryAr: 'الاستقبال الفاخر',
     categoryEn: 'Luxury Reception',
-    image: '/src/assets/images/queen_hotel_lobby_1781080867289.png',
+    image: lobbyImg,
     titleAr: 'صالة الاستقبال الفخمة والمصممة بلمسات ملكية',
     titleEn: 'Luxurious reception lobby designed with royal gold touches'
   },
@@ -188,7 +193,7 @@ export const GALLERY: GalleryItem[] = [
     id: 'gal-3',
     categoryAr: 'الغرف والأجنحة',
     categoryEn: 'Rooms & Suites',
-    image: '/src/assets/images/queen_hotel_deluxe_1781080843862.png',
+    image: deluxeImg,
     titleAr: 'غرفة ديلوكس مجهزة بأحدث سبل الراحة الفاخرة',
     titleEn: 'Deluxe room equipped with modern high-end assets'
   },
@@ -196,7 +201,7 @@ export const GALLERY: GalleryItem[] = [
     id: 'gal-4',
     categoryAr: 'الغرف والأجنحة',
     categoryEn: 'Rooms & Suites',
-    image: '/src/assets/images/queen_hotel_suite_1781080855664.png',
+    image: suiteImg,
     titleAr: 'الجناح التنفيذي بإطلالته الرائعة ومنطقة الجلوس المترفة',
     titleEn: 'Executive suite with modern styling and view'
   },
@@ -204,7 +209,7 @@ export const GALLERY: GalleryItem[] = [
     id: 'gal-5',
     categoryAr: 'المطعم والخدمات',
     categoryEn: 'Restaurant & Services',
-    image: '/src/assets/images/queen_hotel_family_1781080882764.png',
+    image: familyImg,
     titleAr: 'الغرفة العائلية الفسيحة المصممة للأسر والعطلات',
     titleEn: 'Spacious family room designed for holiday relaxation'
   }
